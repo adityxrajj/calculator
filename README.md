@@ -35,10 +35,6 @@ This is a simple and interactive calculator web application built with HTML, CSS
 
 The calculator app should now be up and running locally.
 
-## File Structure
-
-The project consists of the following files:
-
 ## Usage
 
 - Click on the number buttons (`0-9`) to input numbers.
