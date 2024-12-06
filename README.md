@@ -39,15 +39,6 @@ The calculator app should now be up and running locally.
 
 The project consists of the following files:
 
-```
-calculator-web-app/
-├── fonts
-├── index.html      
-├── style.css       
-├── script.js       
-└── README.md      
-```
-
 ## Usage
 
 - Click on the number buttons (`0-9`) to input numbers.
