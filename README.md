@@ -21,12 +21,12 @@ This is a simple and interactive calculator web application built with HTML, CSS
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/adityxrajj/calculator-web-app.git
+   https://github.com/adityxrajj/calculator.git
    ```
 
 2. **Navigate to the project directory**:
    ```bash
-   cd calculator-web-app
+   cd calculator
    ```
 
 3. **Open the `index.html` file** in your preferred web browser:
@@ -41,7 +41,6 @@ The project consists of the following files:
 
 ```
 calculator-web-app/
-│
 ├── fonts
 ├── index.html      
 ├── style.css       
