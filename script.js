@@ -1,7 +1,8 @@
-
 let currentInput = '0';
 let lastOperation = null;
 let openBrackets = 0;
+
+document.addEventListener('keydown', handleKeyboardInput);
 
 function appendValue(value) {
     if (currentInput === '0' && value !== '.') {
@@ -101,4 +102,25 @@ function clearDisplay() {
 
 function updateDisplay() {
     document.getElementById('display').textContent = currentInput || '0';
+}
+
+function handleKeyboardInput(event) {
+    const key = event.key;
+
+    if (!isNaN(key)) {
+        appendValue(key);
+    } else if (key === '.') {
+        appendValue(key);
+    } else if (['+', '-', '*', '/', '%'].includes(key)) {
+        appendOperator(key);
+    } else if (key === '(' || key === ')') {
+        appendBrackets();
+    } else if (key === 'Enter' || key === '=') {
+        calculate();
+        event.preventDefault();
+    } else if (key === 'Backspace') {
+        clearLastCharacter();
+    } else if (key === 'Escape') {
+        clearDisplay();
+    }
 }
