@@ -1,4 +1,4 @@
-# Calculator
+# Numera
 
 This is a simple and interactive calculator web application built with HTML, CSS, and JavaScript. It allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, division, and percentage calculations. The app also includes a backspace functionality and clear all operations.
 
@@ -20,20 +20,22 @@ This is a simple and interactive calculator web application built with HTML, CSS
 ## Installation
 
 1. **Clone the repository**:
+
    ```bash
-   https://github.com/adityxrajj/calculator.git
+   https://adityxrajj.github.io/numera/
    ```
 
 2. **Navigate to the project directory**:
+
    ```bash
-   cd calculator
+   cd numera
    ```
 
 3. **Open the `index.html` file** in your preferred web browser:
    - Double-click `index.html` to open it in your default browser.
    - Or, right-click and select `Open with` to choose a specific browser.
 
-The calculator app should now be up and running locally.
+The Numera app should now be up and running locally.
 
 ## Usage
 
@@ -51,4 +53,3 @@ This project was created by [@adityxrajj](https://github.com/adityxrajj).
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
